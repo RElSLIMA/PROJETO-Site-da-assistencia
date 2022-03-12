@@ -1,0 +1,154 @@
+/* Lipar formatação padrão*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  background: #deedf5;
+}
+
+/*Layout*/
+
+#area-cabecalho {
+  background-color: rgb(53, 210, 245);
+  padding: 20px;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 20px;
+}
+
+#area-principal {
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#area-postagem {
+  width: 660px;
+  float: left;
+}
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.conteudo-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 7px;
+  text-align: center;
+  /*border-bottom: 2px dotted #ccc;*/
+}
+
+.categoria-lateral {
+  font-size: 0.8em;
+  padding: 7px;
+  text-align: center;
+}
+
+.categoria-lateral a:hover {
+  font-size: 1.5em;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(53, 210, 245);
+  color: white;
+}
+
+.contato-lateral {
+  font-size: 0.8em;
+  padding: 7px;
+  text-align: center;
+}
+.contato-lateral b {
+  color: rgb(53, 210, 245);
+  font-size: 0.9em;
+  padding: 7px;
+  text-align: center;
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(53, 210, 245);
+}
+
+/*Formatação do Menu*/
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(53, 210, 245);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 17px;
+}
+
+#area-cabecalho a:hover {
+  color: rgb(53, 210, 245);
+  background: #fff;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/*Formatação Geral*/
+
+h1 {
+  color: #4e4e4e;
+  font-size: 3.5em;
+}
+
+h2 {
+  color: rgb(53, 210, 245);
+  font-size: 2em;
+}
+
+h3 {
+  color: black;
+  font-size: 1.2em;
+  background: rgb(53, 210, 245);
+  padding: 5px;
+  text-align: center;
+}
+
+.branco {
+  color: white;
+}
+
+.data-postagem {
+  font-size: 0.9em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  display: block;
+}
